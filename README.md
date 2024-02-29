@@ -8,13 +8,13 @@ A from scratch implementation of a bitcoin node in python. It currently supports
 - [x] Ellitic curve (Secp25kl, Keys, Signatures ...)
 - [x] Serialization ((Un)compressed SEC, DER, base58)
 - [x] Transactions (Inputs, Outputs, Script, Creation/serialization)
-- [] Script (Parse, Serialization, Eval)
-- [] Networking, Transaction Creation, Broadcast and Validation
-- [] Block Creation, Sync and Validation 
-- [] Simple Payment Verification (Merkle Trees)
-- [] Light Clients and Privacy (Bloom Filters) 
-- [] Segwit (p2wpkh ...)
-- [] Next (SHA256, Payment Channels, Lightning ...)
+- [ ] Script (Parse, Serialization, Eval)
+- [ ] Networking, Transaction Creation, Broadcast and Validation
+- [ ] Block Creation, Sync and Validation 
+- [ ] Simple Payment Verification (Merkle Trees)
+- [ ] Light Clients and Privacy (Bloom Filters) 
+- [ ] Segwit (p2wpkh ...)
+- [ ] Next (SHA256, Payment Channels, Lightning ...)
 
 ## Getting started
 Code sample for generating a Private Key and address from a word secret. The sample prints the secp256kl curve points and an address
