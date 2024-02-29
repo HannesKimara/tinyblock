@@ -1,0 +1,11 @@
+# Temporary hidden
+__main__.py
+
+# Byte compiled files
+__pycache__/
+
+# Editor files
+.vscode/
+
+# Transaction cache
+tx_cache/
